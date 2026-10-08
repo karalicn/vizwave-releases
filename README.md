@@ -25,7 +25,8 @@ checksum, so you can check that the file is the one published here.
 ## Third-party software
 
 VizWave includes FFmpeg (LGPL 2.1) and other open-source components; their licenses are
-installed with VizWave (the `ffmpeg\licenses` folder and THIRD-PARTY-LICENSES.txt). The
-FFmpeg source code is available at https://ffmpeg.org/releases/.
+installed with VizWave (the `ffmpeg\licenses` folder and THIRD-PARTY-LICENSES.txt). Each
+release also has the exact FFmpeg source it was built from (`ffmpeg-8.0.tar.xz`) and the
+build script with its configuration (`build-ffmpeg-lgpl.sh`), as the LGPL asks.
 
 © 2026 Nenad Karalić · [x-doo](https://x-doo.com)
